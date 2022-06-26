@@ -1,0 +1,13 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Miscellaneous
+/.angular/cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings

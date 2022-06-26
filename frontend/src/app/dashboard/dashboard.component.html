@@ -1,0 +1,14 @@
+<div class="quotes"
+    #scrollParent
+    infiniteScroll
+    [infiniteScrollDistance]="1"
+    [infiniteScrollThrottle]="throttle"
+    [scrollWindow]="false"
+    [alwaysCallback]="true"
+    (scrolled)="onScroll()">
+    <div #scrollChild>
+        <div class="card" *ngFor='let quote of quotes'>
+            {{ quote }}
+        </div>
+    </div>
+</div>

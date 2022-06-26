@@ -1,0 +1,26 @@
+{
+  "name": "angular-cat-facts",
+  "description": "CatFacts program",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:backend": "yarn --cwd ./backend",
+    "install:frontend": "yarn --cwd ./frontend",
+    "postinstall": "yarn install:backend && yarn install:frontend",
+    "start:backend": "yarn --cwd ./backend start",
+    "start:frontend": "yarn --cwd ./frontend start",
+    "start": "concurrently \"yarn start:backend\" \"yarn start:frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shlizer/angular-cat-facts.git"
+  },
+  "author": {
+    "name": "Krzysiek 'Shlizer' Hinc",
+    "email": "hinc.krzysiek+github@gmail.com",
+    "url": "https://khinc.pl"
+  },
+  "devDependencies": {
+    "concurrently": "7.2.2"
+  }
+}
