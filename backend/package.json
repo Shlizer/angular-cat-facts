@@ -1,0 +1,29 @@
+{
+  "name": "angular-cat-facts-backend",
+  "description": "Backend part for angular-cat-facts program",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Krzysiek 'Shlizer' Hinc",
+    "email": "hinc.krzysiek+github@gmail.com",
+    "url": "https://khinc.pl"
+  },
+  "dependencies": {
+    "cors":"2.8.5",
+    "express": "4.18.1",
+    "express-jwt":"7.7.5"
+  },
+  "devDependencies": {
+    "@types/cors":"2.8.12",
+    "@types/express": "4.17.13",
+    "@types/express-jwt":"6.0.4",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.0.0",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.1",
+    "typescript": "*4.7.4"
+  },
+  "scripts": {
+    "start": "nodemon nodemon.json"
+  }
+}

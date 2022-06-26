@@ -1,0 +1,15 @@
+# Workbranch config
+.idea
+.vscode
+
+# special dirs
+.angular
+
+# Dependencies
+node_modules
+yarn-error.log
+
+# Dist files
+dist
+build
+*.d.ts
